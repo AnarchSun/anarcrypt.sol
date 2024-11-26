@@ -1,0 +1,10 @@
+anarcrypt.sol/
+├── frontend/                    
+├── backend/                     
+├── eco-subsystem/               
+├── programs/                    
+├── tests/                       
+├── scripts/                     
+├── README.md                    
+├── LICENSE                      
+└── .gitignore                   
