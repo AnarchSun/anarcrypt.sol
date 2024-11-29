@@ -1,61 +1,94 @@
-# frontend
+# solana-dapp
 
-This template should help get you started developing with Vue 3 in Vite.
+## Getting Started
 
-## Recommended IDE Setup
+### Prerequisites
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- Node v18.18.0 or higher
 
-## Type Support for `.vue` Imports in TS
+- Rust v1.77.2 or higher
+- Anchor CLI 0.30.1 or higher
+- Solana CLI 1.18.17 or higher
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+### Installation
 
-## Customize configuration
+#### Clone the repo
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```shell
+git clone <repo-url>
+cd <repo-name>
 ```
 
-### Compile and Hot-Reload for Development
+#### Install Dependencies
 
-```sh
-npm run dev
+```shell
+pnpm install
 ```
 
-### Type-Check, Compile and Minify for Production
+#### Start the web app
 
-```sh
-npm run build
+```
+pnpm dev
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+## Apps
 
-```sh
-npm run test:unit
+### anchor
+
+This is a Solana program written in Rust using the Anchor framework.
+
+#### Commands
+
+You can use any normal anchor commands. Either move to the `anchor` directory and run the `anchor` command or prefix the command with `pnpm`, eg: `pnpm anchor`.
+
+#### Sync the program id:
+
+Running this command will create a new keypair in the `anchor/target/deploy` directory and save the address to the Anchor config file and update the `declare_id!` macro in the `./src/lib.rs` file of the program.
+
+You will manually need to update the constant in `anchor/lib/counter-exports.ts` to match the new program id.
+
+```shell
+pnpm anchor keys sync
 ```
 
-### Run End-to-End Tests with [Nightwatch](https://nightwatchjs.org/)
+#### Build the program:
 
-```sh
-# When using CI, the project must be built first.
-npm run build
-
-# Runs the end-to-end tests
-npm run test:e2e
-# Runs the tests only on Chrome
-npm run test:e2e -- --env chrome
-# Runs the tests of a specific file
-npm run test:e2e -- tests/e2e/example.ts
-# Runs the tests in debug mode
-npm run test:e2e -- --debug
+```shell
+pnpm anchor-build
 ```
-    
-### Lint with [ESLint](https://eslint.org/)
 
-```sh
-npm run lint
+#### Start the test validator with the program deployed:
+
+```shell
+pnpm anchor-localnet
+```
+
+#### Run the tests
+
+```shell
+pnpm anchor-test
+```
+
+#### Deploy to Devnet
+
+```shell
+pnpm anchor deploy --provider.cluster devnet
+```
+
+### web
+
+This is a React app that uses the Anchor generated client to interact with the Solana program.
+
+#### Commands
+
+Start the web app
+
+```shell
+pnpm dev
+```
+
+Build the web app
+
+```shell
+pnpm build
 ```
