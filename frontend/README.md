@@ -1,4 +1,4 @@
-# solana-dapp
+# frontend
 
 ## Getting Started
 
