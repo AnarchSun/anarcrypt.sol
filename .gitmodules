@@ -1,3 +1,6 @@
 [submodule "eco-subsystem/tools/sns-sdk"]
 	path = eco-subsystem/tools/sns-sdk
 	url = https://github.com/Bonfida/sns-sdk.git
+[submodule "programs/program-example"]
+	path = programs/program-example
+	url = https://github.com/solana-developers/program-examples.git
