@@ -4,3 +4,6 @@
 [submodule "programs/program-example"]
 	path = programs/program-example
 	url = https://github.com/solana-developers/program-examples.git
+[submodule "voting-app"]
+	path = voting-app
+	url = https://github.com/gitpod-demos/voting-app.git
