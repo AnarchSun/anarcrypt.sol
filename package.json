@@ -1,0 +1,43 @@
+{
+  "name": "anarcrypt",
+  "version": "7.13.666",
+  "private": true,
+  "packageManager": "yarn@4.6.0",
+  "workspaces": {
+    "packages": [
+      "governance-ui",
+      "programs/sns-integration"
+    ],
+    "noHoist": [
+      "**/pnpm/**",
+      "**/yarn/**"
+    ]
+  },
+  "scripts": {
+    "install:annaheim": "cd annaheim && pnpm install",
+    "install:root": "yarn install",
+    "install:governance-ui": "cd governance-ui && yarn install",
+    "install:sns-sdk": "cd sns-sdk && yarn install"
+  },
+  "dependencies": {
+    "@solana/spl-token": "^0.4.12",
+    "@solana/web3.js": "^1.98.0",
+    "bufferutil": "^4.0.9",
+    "utf-8-validate": "^6.0.5"
+  },
+  "devDependencies": {
+    "@types/fastestsmallesttextencoderdecoder": "^1.0.2",
+    "typescript": "^5.7.3"
+  },
+  "resolutions": {
+    "fastestsmallesttextencoderdecoder": "1.0.22",
+    "@types/fastestsmallesttextencoderdecoder": "1.0.2"
+  },
+  "dependenciesMeta": {
+    "@types/encoding": {},
+    "@types/fastestsmallesttextencoderdecoder": {},
+    "@types/solana__web3.js": {},
+    "encoding": {},
+    "fastestsmallesttextencoderdecoder": {}
+  }
+}

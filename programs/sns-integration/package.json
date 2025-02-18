@@ -11,6 +11,25 @@
   "description": "",
   "dependencies": {
     "@solana-developers/helpers": "^2.5.6",
-    "@solana/web3.js": "^1.95.5"
+    "@solana/web3.js": "^1.98.0",
+    "bufferutil": "^4.0.9",
+    "utf-8-validate": "^6.0.5"
+  },
+  "pnpm": {
+    "ignoredBuiltDependencies": [
+      "bigint-buffer",
+      "bufferutil",
+      "utf-8-validate"
+    ]
+  },
+  "devDependencies": {
+    "@types/fastestsmallesttextencoderdecoder": "^1.0.2",
+    "typescript": "^5.7.3"
+  },
+  "dependenciesMeta": {
+    "@types/encoding": {},
+    "@types/fastestsmallesttextencoderdecoder": {},
+    "@types/solana__web3.js": {},
+    "encoding": {}
   }
 }
