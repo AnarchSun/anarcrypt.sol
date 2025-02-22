@@ -1,3 +1,6 @@
 [submodule "eco-subsystem/sns/sns-ip"]
 	path = eco-subsystem/sns/sns-ip
 	url = git@github.com:RastaDjuss/sns-ip.git
+[submodule "annaheim/echo-subsystem/anza-solana-sdk"]
+	path = annaheim/echo-subsystem/anza-solana-sdk
+	url = git@github.com:RastaDjuss/solana-sdk.git

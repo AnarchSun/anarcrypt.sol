@@ -17,12 +17,12 @@ pub mod onchain_voting {
         match vote_type {
             VoteType::GM => {
                 msg!("Voted for GM 🤝");
-                ctx.accounts.vote_account.gm += 1; 
-            },
+                ctx.accounts.vote_account.gm += 1;
+            }
             VoteType::GN => {
                 msg!("Voted for GN 🤞");
-                ctx.accounts.vote_account.gn += 1; 
-            },
+                ctx.accounts.vote_account.gn += 1;
+            }
         };
         Ok(())
     }
@@ -35,7 +35,7 @@ pub struct InitVote<'info> {
         init, 
         payer = signer, 
         space = 8 + 1 + 8 + 8, 
-    )] 
+    )]
     pub vote_account: Account<'info, VoteBank>,
 
     #[account(mut)]
@@ -47,12 +47,11 @@ pub struct InitVote<'info> {
 #[derive(Accounts)]
 pub struct GibVote<'info> {
     // Storing Votes in global account
-    #[account(mut)] 
+    #[account(mut)]
     pub vote_account: Account<'info, VoteBank>,
 
     pub signer: Signer<'info>,
 }
-
 
 #[account]
 #[derive(Default)]
@@ -65,5 +64,5 @@ pub struct VoteBank {
 #[derive(AnchorSerialize, AnchorDeserialize)]
 pub enum VoteType {
     GM,
-    GN
+    GN,
 }
