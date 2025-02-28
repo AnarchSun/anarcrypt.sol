@@ -1,9 +1,0 @@
-[submodule "eco-subsystem/sns/sns-ip"]
-	path = eco-subsystem/sns/sns-ip
-	url = git@github.com:RastaDjuss/sns-ip.git
-[submodule "anarcrypt-tokens"]
-	path = anarcrypt-tokens
-	url = git@github.com:RastaDjuss/anarcrypt_tokens.git
-[submodule "AnnAHeiM"]
-	path = AnnAHeiM
-	url = git@github.com:RastaDjuss/AnnAHeiM.git
