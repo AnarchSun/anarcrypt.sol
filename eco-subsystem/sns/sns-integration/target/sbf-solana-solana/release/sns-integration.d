@@ -1,0 +1,1 @@
+/home/anarchsun/devs/anarcrypt.sol/programs/sns-integration/target/sbf-solana-solana/release/sns-integration: /home/anarchsun/devs/anarcrypt.sol/programs/sns-integration/src/lib.rs /home/anarchsun/devs/anarcrypt.sol/programs/sns-integration/src/main.rs
