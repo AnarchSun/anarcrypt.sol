@@ -1,0 +1,105 @@
+{
+    "name": "R=3.57 Putsch Token",
+    "symbol": "R=3.57",
+    "description": "AnarCrypt Eco Sub System Project is a Governance realms DAO token ran by a commity driven council, taking the decisions oon token usage and distribution... What are you waiting for, pass the word and command and conquer! Continues its idealistic mission to empower the community through blockchain technology. Join the AnarCoin Collective in our efforts for liberation from economic dictatorship and to reclaim power for the people! Together, we strive for equality and unity. R=3.57 Token is a Community driven project with Governanace DAO: The AnarCoin Collective Putsch DASO on Realsm... Wich grants voter influence and power of decison approuval... Becoming by holding or supplying Liquidity an Official Councile member and collectives social worker for Revolution...",
+    "image": "https://copper-hidden-moth-883.mypinata.cloud/ipfs/bafkreibovr6oyglm6eawjk36tjip227gdyfio5ktt3ervqdohuuokg2t3u?pinataGatewayToken=XvF6cRlGZlzsFo0Qfs0Pv-vg8FR_YynYZOVpG3-CE_STSHdtyPPwRdf5Nu7q9Nig",
+    "external_url": "https://Tattoocalypso.com/anarcoin",
+    "extensions": {
+      "links": [
+        {
+          "trait_type": "R-3.57 Putsch Token  Whitepaper",
+          "value": "https://raw.githubusercontent.com/RastaDjuss/anarcrypt-tokens/refs/heads/main/putsch-token/3.57/pages/R=3.57-whitepapers/whitepaper.md"
+        },
+        {
+          "trait_type": "Raydium Swap & Buy",
+          "value": "https://raydium.io/swap/?inputMint=sol&outputMint=mntnsAyoeh3VeRScFhEDdLmjVE2uM9HvFzWfAv6YNsA"
+        },
+        {
+          "trait_type": "Raydium R=3.57 Putsch Token Liquidity Pools",
+          "value": "https://raydium.io/liquidity-pools/?token=mntnsAyoeh3VeRScFhEDdLmjVE2uM9HvFzWfAv6YNsA"
+        },
+        {
+          "trait_type": "Social Media",
+          "value": [
+            {
+              "platform": "All Links Bitly Linktree",
+              "url": "https://bit.ly/m/anarcoin-collective"
+            },
+            {
+              "platform": "Telegram",
+              "url": "https://t.me/+vPLi3pot4X0zMjMx"
+            },
+            {
+              "platform": "X.com",
+              "url": "https://x.com/AnarcoinCollect"
+            },
+            {
+              "platform": "AnarCrypt Discord Server",
+              "url": "https://discord.gg/Dt7zvuFPGf"
+            },
+            {
+              "platform": "Facebook",
+              "url": "https://www.facebook.com/profile.php?id=61564984054846"
+            },
+            {
+              "platform": "GitHub Repository",
+              "url": "https://github.com/RastaDjuss/anarcrypt-eco-subsystem.git"
+            }
+          ]
+        }
+      ]
+    },
+    "analytics": [
+      {
+        "trait_type": "Solscan",
+        "value": "https://solscan.io/token/mntnsAyoeh3VeRScFhEDdLmjVE2uM9HvFzWfAv6YNsA"
+      },
+      {
+        "trait_type": "Jupiter",
+        "value": "https://jup.ag/swap/mntnsAyoeh3VeRScFhEDdLmjVE2uM9HvFzWfAv6YNsA-SOL"
+      },
+      {
+        "trait_type": "DexTools",
+        "value": "https://www.dextools.io/app/en/solana/pair-explorer/mntnsAyoeh3VeRScFhEDdLmjVE2uM9HvFzWfAv6YNsA?t=1732056618321"
+      },
+      {
+        "trait_type": "DexScreener",
+        "value": "https://dexscreener.com/solana/mntnsAyoeh3VeRScFhEDdLmjVE2uM9HvFzWfAv6YNsA"
+      },
+      {
+        "trait_type": "GeckoTerminal",
+        "value": "https://www.geckoterminal.com/solana/tokens/mntnsAyoeh3VeRScFhEDdLmjVE2uM9HvFzWfAv6YNsA"
+      },
+          {
+        "trait_type": "Ape.pro",
+        "value": "https://ape.pro/solana/mntnsAyoeh3VeRScFhEDdLmjVE2uM9HvFzWfAv6YNsA"
+      },
+      {
+        "trait_type": "Birdeye",
+        "value": "https://birdeye.so/token/mntnsAyoeh3VeRScFhEDdLmjVE2uM9HvFzWfAv6YNsA?chain=solana"
+      }
+    ],
+    "license": "MIT",
+    "tags": [
+      "crypto",
+      "decentralized",
+      "community",
+      "blockchain",
+      "solana",
+      "anarki",
+      "anark",
+      "anarcoin collective",
+      "anarcoin",
+      "community Driven",
+      "anarchy",
+      "anarchism",
+      "raydium",
+      "anarcoin 2.0",
+      "cryptocurrency",
+      "revolution",
+        "putsch",
+        "r-357",
+        "r=3.57",
+        "anarcoin"
+    ]
+  }

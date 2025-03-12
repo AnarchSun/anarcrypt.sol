@@ -1,0 +1,6 @@
+[submodule "anarcrypt-tokens"]
+	path = anarcrypt-tokens
+	url = git@github.com:RastaDjuss/anarcrypt-tokens.git
+[submodule "anaheim"]
+	path = anaheim
+	url = git@github.com:RastaDjuss/anaheim.git

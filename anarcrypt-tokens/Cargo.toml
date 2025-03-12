@@ -1,0 +1,13 @@
+[package]
+name = "anarcrypt-tokens"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+spl-token = "7.0.0"
+
+
+
+[lib]
+name = "src/lib.rs"  # This is the library target name
+crate-type = ["lib"]  # Specify that this is a library crate

@@ -1,0 +1,102 @@
+{
+  "name": "r=3.57 Token",
+  "symbol": "r-3.57",
+  "description": "AnarCrypt Eco Sub System Project continues, the governance r=3.57 Token or just r=3.35 symbole is born to raise Hell. its idealistic mission to empower the community through blockchain technology. Join the AnarCoin Collective in our efforts for liberation from economic dictatorship and to reclaim power for the people! Together, we strive for equality and unity. Gain Holder privileges and governance decision power and influence on token supply distribution and project. Cointrol a certain % of total volume4. What are you waiting for command and conquer",
+  "image": "https://media.githubusercontent.com/media/RastaDjuss/anarcrypt_tokens/refs/heads/main/putsch-token/wallets/3.57/chaos.png?token=AGBIGHSKOC3VP7X4HGKNQ7LHX6RNK",
+  "external_url": "https://Tattoocalypso.com/anarcoin",
+  "extensions": {
+    "links": [
+      {
+        "trait_type": "r=3.57 Tok4n Whitepaper",
+        "value": "https://raw.githubusercontent.com/RastaDjuss/anarcrypt-tokens/refs/heads/main/putsch-token/whitepaper.md"
+      },
+      {
+        "trait_type": "Raydium Swap & Buy",
+        "value": "https://raydium.io/swap/?inputMint=sol&outputMint=mntGv42N18Uu53tTj5dta65F3zSuj1AJpEb7obNx45Q"
+      },
+      {
+        "trait_type": "Raydium PUTSCH Liquidity Pools",
+        "value": "https://raydium.io/liquidity-pools/?token=mntGv42N18Uu53tTj5dta65F3zSuj1AJpEb7obNx45Q"
+      },
+      {
+        "trait_type": "Social Media",
+        "value": [
+          {
+            "platform": "All Links Bitly Linktree",
+            "url": "https://bit.ly/m/anarcoin-collective"
+          },
+          {
+            "platform": "Telegram",
+            "url": "https://t.me/+vPLi3pot4X0zMjMx"
+          },
+          {
+            "platform": "X.com",
+            "url": "https://x.com/AnarcoinCollect"
+          },
+          {
+            "platform": "AnarCrypt Discord Server",
+            "url": "https://discord.gg/Dt7zvuFPGf"
+          },
+          {
+            "platform": "Facebook",
+            "url": "https://www.facebook.com/profile.php?id=61564984054846"
+          }
+        ]
+      }
+    ]
+  },
+  "analytics": [
+    {
+      "trait_type": "Solscan",
+      "value": "https://solscan.io/token/mntGv42N18Uu53tTj5dta65F3zSuj1AJpEb7obNx45Q"
+    },
+    {
+      "trait_type": "Jupiter",
+      "value": "https://jup.ag/swap/mntGv42N18Uu53tTj5dta65F3zSuj1AJpEb7obNx45Q-SOL"
+    },
+    {
+      "trait_type": "DexTools",
+      "value": "https://www.dextools.io/app/en/solana/pair-explorer/mntGv42N18Uu53tTj5dta65F3zSuj1AJpEb7obNx45Q?t=1732056618321"
+    },
+    {
+      "trait_type": "DexScreener",
+      "value": "https://dexscreener.com/solana/mntGv42N18Uu53tTj5dta65F3zSuj1AJpEb7obNx45Q"
+    },
+    {
+      "trait_type": "GeckoTerminal",
+      "value": "https://www.geckoterminal.com/solana/tokens/mntGv42N18Uu53tTj5dta65F3zSuj1AJpEb7obNx45Q"
+    },
+    {
+      "trait_type": "Ape.pro",
+      "value": "https://ape.pro/solana/mntGv42N18Uu53tTj5dta65F3zSuj1AJpEb7obNx45Q"
+    },
+    {
+      "trait_type": "CoinMarketCap",
+      "value": "https://coinmarketcap.com/dexscan/solana/EPbtYJBWZyh8MhBnPP4g1nfDdkzf8GxHmu8XqDG7KE5K/"
+    },
+    {
+      "trait_type": "Birdeye",
+      "value": "https://birdeye.so/token/mntGv42N18Uu53tTj5dta65F3zSuj1AJpEb7obNx45Q?chain=solana"
+    }
+  ],
+  "license": "MIT",
+  "tags": [
+    "crypto",
+    "decentralized",
+    "community",
+    "blockchain",
+    "solana",
+    "anarki",
+    "anark",
+    "anarcoin collective",
+    "anarcoin",
+    "community Driven",
+    "anarchy",
+    "anarchism",
+    "raydium",
+    "anarcoin 2.0",
+    "cryptocurrency",
+    "revolution",
+    "putsch"
+  ]
+}

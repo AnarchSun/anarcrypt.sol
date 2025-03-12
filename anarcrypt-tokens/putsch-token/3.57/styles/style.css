@@ -1,0 +1,143 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Black background for the theme */
+    color: #eee; /* Light gray text for readability */
+}
+
+/* Header Styling */
+header {
+    background: url('../media/web_banner.png') no-repeat center center;
+    background-size: cover; /* The banner image covers the entire header */
+    padding: 3rem 0;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px #4b0082; /* Deep Purple shadow */
+}
+
+/* Navigation Links in the Header */
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+header ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: #ff69b4; /* Glowing Pink for links */
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+header ul li a:hover {
+    color: #ffff00; /* Bright yellow on hover */
+}
+
+/* Main Content Styling with Deep Purple Boxes for Paragraphs */
+main {
+    padding: 20px;
+    color: #eee; /* Light text color for readability */
+}
+
+/* Les paragraphes avec une lueur extérieure violette subtile et texte jaune bouton-d'or */
+main p {
+    background-color: #1a001a; /* Violet très foncé */
+    color: rgba(255, 217, 102, 0.9); /* Jaune bouton-d'or transparent (plus doux) */
+    padding: 15px;
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 0 30px rgba(26, 0, 26, 0.3), /* Lueur extérieure violette subtile */
+    0 0 20px rgba(255, 217, 102, 0.4); /* Lueur jaune bouton-d'or translucide */
+    margin-bottom: 20px;
+}
+
+/* Texte lumineux avec une lueur douce */
+.glow {
+    color: rgba(255, 217, 102, 0.9); /* Texte jaune bouton-d'or transparent */
+    text-shadow: 0 0 25px rgba(26, 0, 26, 0.4), /* Douce lueur violette */
+    0 0 35px rgba(255, 217, 102, 0.6); /* Lueur jaune chaleureuse */
+}
+
+/* Boîtes stylisées avec lumière douce et texte jaune bouton-d'or */
+.box {
+    background-color: #1a001a; /* Violet profond (presque noir) */
+    padding: 20px;
+    border-radius: 15px; /* Coins légèrement arrondis pour plus de douceur */
+    box-shadow: 0 0 40px rgba(26, 0, 26, 0.4), /* Lueur violette subtile */
+    0 0 30px rgba(255, 217, 102, 0.5); /* Lueur externe jaune bouton-d'or */
+    color: rgba(255, 217, 102, 0.9); /* Texte jaune bouton-d'or avec légère transparence */
+    margin: 20px 0;
+}
+
+/* Boutons avec une lueur jaune bouton-d'or douce */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(255, 217, 102, 0.9); /* Fond bouton-d'or très doux */
+    color: #1a001a; /* Texte violet profond */
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    box-shadow: 0 0 20px rgba(255, 217, 102, 0.5); /* Lueur extérieure jaune chaleureuse */
+}
+
+.button:hover {
+    background-color: #FFD966; /* Jaune bouton-d'or plus saturé au survol */
+    color: #4b0082; /* Texte violet profond */
+    box-shadow: 0 0 30px rgba(255, 217, 102, 0.5), /* Lueur jaune bouton-d'or */
+    0 0 40px rgba(26, 0, 26, 0.4); /* Lueur violette douce */
+}
+
+/* Zone de symbole Chaos avec lueur violette et jaune bouton-d'or */
+.chaos-symbol {
+    background-color: #1a001a; /* Fond noir-violet profond */
+    color: rgba(255, 217, 102, 0.9); /* Texte jaune bouton-d'or subtilement transparent */
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(26, 0, 26, 0.5), /* Lueur violette */
+    0 0 40px rgba(255, 217, 102, 0.4); /* Lueur bouton-d'or douce */
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+/* Texte alternatif avec une lueur bouton-d'or subtile */
+.text-deep-purple {
+    color: rgba(255, 217, 102, 0.9); /* Texte bouton-d'or transparent */
+    text-shadow: 0 0 30px rgba(255, 217, 102, 0.3), /* Douce lueur bouton-d'or */
+    0 0 20px rgba(26, 0, 26, 0.3); /* Douce lueur violette */
+}
+
+/* Glowing Effects for Important Elements */
+.glow {
+    color: #ff69b4; /* Glowing pink */
+    text-shadow: 0 0 8px #ff69b4, 0 0 15px #ff69b4; /* Glow effect */
+}
+
+.glow:hover {
+    text-shadow: 0 0 15px #ffff00, 0 0 25px #ffff00; /* Glow changes to yellow on hover */
+}
+
+/* Boxes for Standout Areas */
+.box {
+    background-color: #4b0082; /* Deep Purple box */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #ff69b4; /* Glowing purple-pink shadow */
+    color: #ffff00; /* Yellow text */
+    margin: 20px 0;
+}
