@@ -1,6 +1,6 @@
 {
   "anaheim": {
-    "address": "8RmTVazK1G3ZJ7EqYZC9FYJejFge98Vyz7T4zVdY8okX",
+    "address": "FV9aAVcF157mf2mKn9BiU9LDCkxuTwsD9wU6BdcDRv6R",
     "metadata": {
       "name": "anaheim",
       "version": "0.1.0",
@@ -13,127 +13,118 @@
     "instructions": [
       {
         "name": "close",
-        "discriminator": [98,165,201,177,108,65,206,96],
+        "discriminator": [ 98, 165, 201, 177, 108, 65, 206, 96 ],
         "accounts": [
-          {"name":"anaheim","writable":true},
-          {"name":"payer","writable":true,"signer":true}
+          { "name": "anaheim", "writable": true },
+          { "name": "payer", "writable": true, "signer": true }
         ],
         "args": []
       },
       {
         "name": "createPost",
-        "discriminator": [123,92,184,29,231,24,15,202],
+        "discriminator": [ 123, 92, 184, 29, 231, 24, 15, 202 ],
         "accounts": [
-          {"name":"postAccount","writable":true,"signer":true},
-          {"name":"user","writable":true,"signer":true},
-          {"name":"systemProgram","address":"11111111111111111111111111111111"}
+          { "name": "postAccount", "writable": true, "signer": true },
+          { "name": "user", "writable": true, "signer": true },
+          { "name": "systemProgram", "address": "11111111111111111111111111111111" }
         ],
-        "args":[{"name":"content","type":"string"}]
+        "args": [ { "name": "content", "type": "string" } ]
       },
       {
         "name": "createUser",
-        "discriminator": [108,227,130,130,252,109,75,218],
+        "discriminator": [ 108, 227, 130, 130, 252, 109, 75, 218 ],
         "accounts": [
-          {"name":"userAccount","writable":true,"signer":true},
-          {"name":"authority","writable":true,"signer":true},
-          {"name":"systemProgram","address":"11111111111111111111111111111111"}
+          { "name": "userAccount", "writable": true, "signer": true },
+          { "name": "authority", "writable": true, "signer": true },
+          { "name": "systemProgram", "address": "11111111111111111111111111111111" }
         ],
-        "args":[{"name":"username","type":"string"}]
+        "args": [ { "name": "username", "type": "string" } ]
       },
       {
-        "name":"decrement",
-        "discriminator":[106,227,168,59,248,27,150,101],
-        "accounts":[{"name":"anaheim","writable":true}],
-        "args":[]
+        "name": "decrement",
+        "discriminator": [ 106, 227, 168, 59, 248, 27, 150, 101 ],
+        "accounts": [ { "name": "anaheim", "writable": true } ],
+        "args": []
       },
       {
-        "name":"increment",
-        "discriminator":[11,18,104,9,104,174,59,33],
-        "accounts":[{"name":"anaheim","writable":true}],
-        "args":[]
+        "name": "increment",
+        "discriminator": [ 11, 18, 104, 9, 104, 174, 59, 33 ],
+        "accounts": [ { "name": "anaheim", "writable": true } ],
+        "args": []
       },
       {
-        "name":"initialize",
-        "discriminator":[175,175,109,31,13,152,155,237],
-        "accounts":[
-          {"name":"anaheim","writable":true,"signer":true},
-          {"name":"payer","writable":true,"signer":true},
-          {"name":"systemProgram","address":"11111111111111111111111111111111"}
+        "name": "initialize",
+        "discriminator": [ 175, 175, 109, 31, 13, 152, 155, 237 ],
+        "accounts": [
+          { "name": "anaheim", "writable": true, "signer": true },
+          { "name": "payer", "writable": true, "signer": true },
+          { "name": "systemProgram", "address": "11111111111111111111111111111111" }
         ],
-        "args":[]
+        "args": []
       },
       {
-        "name":"set",
-        "discriminator":[198,51,53,241,116,29,126,194],
-        "accounts":[{"name":"anaheim","writable":true}],
-        "args":[{"name":"value","type":"u64"}]
+        "name": "set",
+        "discriminator": [ 198, 51, 53, 241, 116, 29, 126, 194 ],
+        "accounts": [ { "name": "anaheim", "writable": true } ],
+        "args": [ { "name": "value", "type": "u64" } ]
       }
     ],
     "accounts": [
-      {
-        "name": "anaheimAccount",
-        "discriminator": [26,253,236,239,22,181,47,158]
-      },
-      {
-        "name": "postAccount",
-        "discriminator": [85,236,139,84,240,243,196,23]
-      },
-      {
-        "name": "userAccount",
-        "discriminator": [211,33,136,16,186,110,242,127]
-      }
+      { "name": "anaheimAccount", "discriminator": [ 26, 253, 236, 239, 22, 181, 47, 158 ] },
+      { "name": "postAccount", "discriminator": [ 85, 236, 139, 84, 240, 243, 196, 23 ] },
+      { "name": "userAccount", "discriminator": [ 211, 33, 136, 16, 186, 110, 242, 127 ] }
     ],
     "errors": [
-      {"code":6000,"name":"alreadyVoted","msg":"User has already voted."},
-      {"code":6001,"name":"invalidContent","msg":"Invalid content."},
-      {"code":6002,"name":"contentTooLong","msg":"Content too long."},
-      {"code":6003,"name":"usernameTooLong","msg":"Username too long."},
-      {"code":6004,"name":"invalidUsername","msg":"Invalid username."},
-      {"code":6005,"name":"usernameTooShort","msg":"Username too short dude!"},
-      {"code":6006,"name":"overflow","msg":"Overflow occurred."},
-      {"code":6007,"name":"underflow","msg":"Underflow occurred."},
-      {"code":6008,"name":"usernameExists","msg":"Username already exists."},
-      {"code":6009,"name":"unauthorized","msg":"Unauthorized action."},
-      {"code":6010,"name":"invalidAuthority","msg":"Invalid authority on post."}
+      { "code": 6000, "name": "alreadyVoted", "msg": "User has already voted." },
+      { "code": 6001, "name": "invalidContent", "msg": "Invalid content." },
+      { "code": 6002, "name": "contentTooLong", "msg": "Content too long." },
+      { "code": 6003, "name": "usernameTooLong", "msg": "Username too long." },
+      { "code": 6004, "name": "invalidUsername", "msg": "Invalid username." },
+      { "code": 6005, "name": "usernameTooShort", "msg": "Username too short dude!" },
+      { "code": 6006, "name": "overflow", "msg": "Overflow occurred." },
+      { "code": 6007, "name": "underflow", "msg": "Underflow occurred." },
+      { "code": 6008, "name": "usernameExists", "msg": "Username already exists." },
+      { "code": 6009, "name": "unauthorized", "msg": "Unauthorized action." },
+      { "code": 6010, "name": "invalidAuthority", "msg": "Invalid authority on post." }
     ],
     "types": [
       {
-        "name":"anaheimAccount",
-        "type":{
-          "kind":"struct",
-          "fields":[
-            {"name":"authority","type":"pubkey"},
-            {"name":"count","type":"u64"},
-            {"name":"value","type":"u8"}
+        "name": "anaheimAccount",
+        "type": {
+          "kind": "struct",
+          "fields": [
+            { "name": "authority", "type": "pubkey" },
+            { "name": "count", "type": "u64" },
+            { "name": "value", "type": "u8" }
           ]
         }
       },
       {
-        "name":"postAccount",
-        "type":{
-          "kind":"struct",
-          "fields":[
-            {"name":"content","type":"string"},
-            {"name":"author","type":"pubkey"},
-            {"name":"timestamp","type":"i64"}
+        "name": "postAccount",
+        "type": {
+          "kind": "struct",
+          "fields": [
+            { "name": "content", "type": "string" },
+            { "name": "author", "type": "pubkey" },
+            { "name": "timestamp", "type": "i64" }
           ]
         }
       },
       {
-        "name":"userAccount",
-        "docs":["─── COMPTES STRUCTURÉS ─────────────────────────────────────────────────────"],
-        "type":{
-          "kind":"struct",
-          "fields":[
-            {"name":"name","type":"string"},
-            {"name":"userAuthority","type":"pubkey"}
+        "name": "userAccount",
+        "docs": [ "─── COMPTES STRUCTURÉS ─────────────────────────────────────────────────────" ],
+        "type": {
+          "kind": "struct",
+          "fields": [
+            { "name": "name", "type": "string" },
+            { "name": "userAuthority", "type": "pubkey" }
           ]
         }
       }
     ]
   },
   "journal": {
-    "address": "5Z83vnTd9UBLfby19h8URuofff6DELAwww5hyEQhtmkb",
+    "address": "2G2EN3Jr2Ss3q3kYwCT1A6y6Rc5t2J6qCxE2fkYKv3pN",
     "metadata": {
       "name": "journal",
       "version": "0.1.0",
@@ -143,73 +134,49 @@
     "instructions": [
       {
         "name": "createJournalEntry",
-        "discriminator": [48,65,201,186,25,41,127,0],
+        "discriminator": [ 48, 65, 201, 186, 25, 41, 127, 0 ],
         "accounts": [
           {
             "name": "journalEntry",
             "writable": true,
-            "pda": {
-              "seeds": [
-                {"kind":"arg","path":"title"},
-                {"kind":"account","path":"owner"}
-              ]
-            }
+            "pda": { "seeds": [ { "kind": "arg", "path": "title" }, { "kind": "account", "path": "owner" } ] }
           },
-          {"name": "owner","writable": true,"signer": true},
-          {"name": "systemProgram","address": "11111111111111111111111111111111"}
+          { "name": "owner", "writable": true, "signer": true },
+          { "name": "systemProgram", "address": "11111111111111111111111111111111" }
         ],
-        "args": [
-          {"name": "title","type": "string"},
-          {"name": "message","type": "string"}
-        ]
+        "args": [ { "name": "title", "type": "string" }, { "name": "message", "type": "string" } ]
       },
       {
         "name": "deleteJournalEntry",
-        "discriminator": [156,50,93,5,157,97,188,114],
+        "discriminator": [ 156, 50, 93, 5, 157, 97, 188, 114 ],
         "accounts": [
           {
             "name": "journalEntry",
             "writable": true,
-            "pda": {
-              "seeds": [
-                {"kind":"arg","path":"title"},
-                {"kind":"account","path":"owner"}
-              ]
-            }
+            "pda": { "seeds": [ { "kind": "arg", "path": "title" }, { "kind": "account", "path": "owner" } ] }
           },
-          {"name": "owner","writable": true,"signer": true},
-          {"name": "systemProgram","address": "11111111111111111111111111111111"}
+          { "name": "owner", "writable": true, "signer": true },
+          { "name": "systemProgram", "address": "11111111111111111111111111111111" }
         ],
-        "args": [{"name": "title","type": "string"}]
+        "args": [ { "name": "title", "type": "string" } ]
       },
       {
         "name": "updateJournalEntry",
-        "discriminator": [113,164,49,62,43,83,194,172],
+        "discriminator": [ 113, 164, 49, 62, 43, 83, 194, 172 ],
         "accounts": [
           {
             "name": "journalEntry",
             "writable": true,
-            "pda": {
-              "seeds": [
-                {"kind":"arg","path":"title"},
-                {"kind":"account","path":"owner"}
-              ]
-            }
+            "pda": { "seeds": [ { "kind": "arg", "path": "title" }, { "kind": "account", "path": "owner" } ] }
           },
-          {"name": "owner","writable": true,"signer": true},
-          {"name": "systemProgram","address": "11111111111111111111111111111111"}
+          { "name": "owner", "writable": true, "signer": true },
+          { "name": "systemProgram", "address": "11111111111111111111111111111111" }
         ],
-        "args": [
-          {"name": "title","type": "string"},
-          {"name": "message","type": "string"}
-        ]
+        "args": [ { "name": "title", "type": "string" }, { "name": "message", "type": "string" } ]
       }
     ],
     "accounts": [
-      {
-        "name": "journalEntryState",
-        "discriminator": [113,86,110,124,140,14,58,66]
-      }
+      { "name": "journalEntryState", "discriminator": [ 113, 86, 110, 124, 140, 14, 58, 66 ] }
     ],
     "types": [
       {
@@ -217,9 +184,9 @@
         "type": {
           "kind": "struct",
           "fields": [
-            {"name": "owner","type": "pubkey"},
-            {"name": "title","type": "string"},
-            {"name": "message","type": "string"}
+            { "name": "owner", "type": "pubkey" },
+            { "name": "title", "type": "string" },
+            { "name": "message", "type": "string" }
           ]
         }
       }
