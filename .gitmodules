@@ -7,3 +7,21 @@
 [submodule "anaheim-putsch-self-governance-solana-dapp"]
 	path = anaheim-putsch-self-governance-solana-dapp
 	url = git@github.com:RastaDjuss/anaheim-putsch-self-governance-solana-dapp.git
+[submodule "eco-subsystem/staking-ui"]
+	path = eco-subsystem/staking-ui
+	url = https://github.com/solana-nft-programs/staking-ui.git
+[submodule "eco-subsystem/stake"]
+	path = eco-subsystem/stake
+	url = git@github.com:solana-program/stake.git
+[submodule "eco-subsystem/single-pool"]
+	path = eco-subsystem/single-pool
+	url = git@github.com:solana-program/single-pool.git
+[submodule "eco-subsystem/token"]
+	path = eco-subsystem/token
+	url = git@github.com:solana-program/token.git
+[submodule "eco-subsystem/rewards-center"]
+	path = eco-subsystem/rewards-center
+	url = git@github.com:solana-nft-programs/rewards-center.git
+[submodule "eco-subsystem/governance-program-library"]
+	path = eco-subsystem/governance-program-library
+	url = git@github.com:RastaDjuss/governance-program-library.git
