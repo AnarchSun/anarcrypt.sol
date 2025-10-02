@@ -4,3 +4,6 @@
 [submodule "anaheim"]
 	path = anaheim
 	url = git@github.com:RastaDjuss/anaheim.git
+[submodule "anaheim-putsch-self-governance-solana-dapp"]
+	path = anaheim-putsch-self-governance-solana-dapp
+	url = git@github.com:AnarchSun/anaheim-putsch-self-governance-solana-dapp.git
