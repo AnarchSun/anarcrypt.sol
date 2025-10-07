@@ -1,0 +1,26 @@
+FROM python:3.11-slim
+
+# deps system
+RUN apt-get update && apt-get install -y git curl build-essential \
+  nodejs npm wget unzip jq && rm -rf /var/lib/apt/lists/*
+
+# pip deps
+COPY src/requirements.txt /tmp/requirements.txt
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
+
+# global git config
+RUN git config --global user.name "Orion-Worker" && \
+    git config --global user.email "orion@local"
+
+# WORKDIR et copie avant chmod
+WORKDIR /work
+COPY . /work
+RUN chmod +x /work/scripts/start.sh
+
+ENV REPO_PATH=/work/project
+ENV DB_PATH=/work/data/memory.sqlite
+ENV PATCH_DIR=/work/data/patches
+ENV FIXES_JSON=/work/data/fixes.json
+
+EXPOSE 9222
+ENTRYPOINT ["/work/scripts/start.sh"]

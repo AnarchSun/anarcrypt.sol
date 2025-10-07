@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  orion-worker:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.worker
+    environment:
+      - REPO_PATH=/work/project
+      - DB_PATH=/work/data/memory.sqlite
+      - GITHUB_TOKEN=${GITHUB_TOKEN:-}
+      - LLM_CMD=${LLM_CMD:-gpt4all}
+    volumes:
+      - ../anaheim-putsch-self-governance-solana-dapp:/work/project:rw
+      - ./data:/work/data:rw
+    restart: unless-stopped
