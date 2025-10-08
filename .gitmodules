@@ -1,12 +1,3 @@
 [submodule "anarcrypt-tokens"]
 	path = anarcrypt-tokens
 	url = git@github.com:RastaDjuss/anarcrypt-tokens.git
-[submodule "anaheim-putsch-self-governance-solana-dapp"]
-	path = anaheim-putsch-self-governance-solana-dapp
-	url = git@github.com:AnarchSun/anaheim-worker/anaheim-putsch-self-governance-solana-dapp.git
-[submodule "anaheim-worker/candy-machine"]
-	path = anaheim-worker/candy-machine
-	url = git@github.com:AnarchSun/mpl-candy-machine.git
-[submodule "anaheim-worker/governance-ui"]
-	path = anaheim-worker/governance-ui
-	url = https://github.com/Mythic-Project/governance-ui.git
