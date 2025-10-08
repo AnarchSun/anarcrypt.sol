@@ -48,3 +48,7 @@ def push_branch(repo: Repo, branch: str, remote: str = 'origin') -> bool:
         return True
     except git.GitCommandError:
         return False
+
+
+def repo_open():
+    return None

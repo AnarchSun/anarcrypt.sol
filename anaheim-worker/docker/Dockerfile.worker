@@ -1,26 +1,34 @@
+# anarcrypt.sol/anaheim-worker/docker/Dockerfile.worker
 FROM python:3.11-slim
 
-# deps system
-RUN apt-get update && apt-get install -y git curl build-essential \
-  nodejs npm wget unzip jq && rm -rf /var/lib/apt/lists/*
+# ---- System deps ----
+RUN apt-get update && apt-get install -y \
+    git curl build-essential nodejs npm wget unzip jq \
+    && rm -rf /var/lib/apt/lists/*
 
-# pip deps
+# ---- Copy & install Python deps ----
 COPY src/requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
-# global git config
-RUN git config --global user.name "Orion-Worker" && \
-    git config --global user.email "orion@local"
+# ---- Global git config ----
+RUN git config --global user.name "Orion-Worker" \
+    && git config --global user.email "orion@local"
 
-# WORKDIR et copie avant chmod
+# ---- Workdir & copy scripts ----
 WORKDIR /work
 COPY . /work
 RUN chmod +x /work/scripts/start.sh
 
+# ---- Env defaults ----
 ENV REPO_PATH=/work/project
+ENV GOV_PATH=/work/governance
 ENV DB_PATH=/work/data/memory.sqlite
 ENV PATCH_DIR=/work/data/patches
 ENV FIXES_JSON=/work/data/fixes.json
+ENV LLM_CMD=gpt4all
 
+# ---- Ports ----
 EXPOSE 9222
+
+# ---- Entrypoint ----
 ENTRYPOINT ["/work/scripts/start.sh"]
