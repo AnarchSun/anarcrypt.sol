@@ -1,8 +1,8 @@
 # anarcrypt.sol/anaheim-worker/src/test_worker_start.py
-from pathlib import Path
-import os
 import sys
-from worker_full import CFG_PATH, REPO, GOV_PATH, DB_PATH, BRANCH, ensure_branch_exists, init_db
+from pathlib import Path
+
+from workers.legacy.worker_full import CFG_PATH, REPO, GOV_PATH, DB_PATH, BRANCH, ensure_branch_exists, init_db
 
 print("🛠️ Test Worker Start")
 
@@ -28,7 +28,7 @@ except Exception as e:
 
 # 4️⃣ Vérifier / créer branche Git
 try:
-    ensure_branch_exists(REPO, BRANCH)
+    ensure_branch_exists()
     print(f"✅ Branche Git prête: {BRANCH}")
 except Exception as e:
     print("❌ Erreur Git:", e)

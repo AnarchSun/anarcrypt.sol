@@ -1,5 +1,3 @@
-# anarcrypt.sol/anaheim-worker/docker/docker-compose.yml
-version: "3.8"
 services:
   orion-worker:
     build:
@@ -17,6 +15,7 @@ services:
       - ../anaheim-putsch-self-governance-solana-dapp:/work/project:rw
       - ../governance:/work/governance:rw
       - ./data:/work/data:rw
+      - ./config:/work/config:rw   # <--- corrigé ici
     restart: unless-stopped
     logging:
       driver: "json-file"
